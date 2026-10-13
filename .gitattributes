@@ -1,0 +1,8 @@
+# Ruby ve betikler: depoda LF, Windows'ta checkout CRLF olabilir; SketchUp ikisini de okur.
+*.rb   text eol=lf
+*.md   text
+*.ps1  text eol=crlf
+
+# İkili dosyalar: satır sonu dönüşümü yapılmasın.
+*.png  binary
+*.rbz  binary
