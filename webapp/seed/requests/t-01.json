@@ -1,0 +1,42 @@
+{
+  "projectId": "ornek-moda",
+  "code": "T-01",
+  "title": "Zemin kat planından model",
+  "type": "modelleme",
+  "status": "onay",
+  "sample": true,
+  "createdAt": "2026-10-20T06:10:00.000Z",
+  "updatedAt": "2026-10-20T12:05:00.000Z",
+  "approvedAt": "2026-10-20T12:05:00.000Z",
+  "scope": {
+    "scene": "Plan-Zemin",
+    "tags": "10_DUVAR, 20_DOSEME, 30_DOGRAMA",
+    "comps": ""
+  },
+  "draft": null,
+  "versions": [
+    {
+      "n": 1,
+      "sentAt": "2026-10-20T07:00:00.000Z",
+      "doneAt": "2026-10-20T11:30:00.000Z",
+      "minutes": 270,
+      "image": "demo:dwg-plan",
+      "result": "demo:plan-model",
+      "pins": [],
+      "note": "Islak hacimlerde döşeme 2 cm düşük olsun.",
+      "brief": {
+        "dwg": "ZeminKat_Plan_r3.dwg",
+        "bolum": "Daire 4, tüm kat",
+        "katYuk": "3,00 m",
+        "doseme": "15 cm + 5 cm şap",
+        "duvar": "Dış 25 cm, iç 10 cm",
+        "dograma": "Kapı 90×210, pencere parapeti 90 cm",
+        "layer": "DUVAR → 10_DUVAR, KAPI ve PENCERE → 30_DOGRAMA",
+        "detay": "Basit kasa doğrama, mobilya yok"
+      },
+      "prompt": "",
+      "approved": true,
+      "summary": "Duvarlar DWG altlıktan çıkarıldı; döşeme ve doğrama boşlukları açıldı. Islak hacim döşemesi 2 cm düşük."
+    }
+  ]
+}

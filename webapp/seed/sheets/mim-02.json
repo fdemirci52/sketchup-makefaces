@@ -1,0 +1,18 @@
+{
+  "projectId": "ornek-moda",
+  "no": "MİM-02",
+  "title": "Güney cephe görünüşü",
+  "kind": "mimari",
+  "scale": "1/50",
+  "size": "A3",
+  "status": "revizyon",
+  "sample": true,
+  "requestId": "t-02",
+  "revisions": [
+    {
+      "v": 1,
+      "date": "2026-10-25T08:00:00.000Z",
+      "note": "Lamelsiz mevcut cephe"
+    }
+  ]
+}

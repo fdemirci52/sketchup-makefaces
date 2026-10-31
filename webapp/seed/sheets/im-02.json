@@ -1,0 +1,18 @@
+{
+  "projectId": "ornek-moda",
+  "no": "İM-02",
+  "title": "M-02 TV ünitesi",
+  "kind": "imalat",
+  "scale": "oto",
+  "size": "A3",
+  "status": "kontrol",
+  "sample": true,
+  "itemId": "m-02",
+  "revisions": [
+    {
+      "v": 1,
+      "date": "2026-10-30T14:00:00.000Z",
+      "note": "İlk yayın"
+    }
+  ]
+}

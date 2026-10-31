@@ -1,0 +1,25 @@
+{
+  "projectId": "ornek-moda",
+  "no": "İM-01",
+  "title": "M-01 Mutfak alt dolabı",
+  "kind": "imalat",
+  "scale": "oto",
+  "size": "A3",
+  "status": "gonderildi",
+  "sample": true,
+  "itemId": "m-01",
+  "revisions": [
+    {
+      "v": 1,
+      "date": "2026-10-22T11:00:00.000Z",
+      "note": "İlk yayın"
+    },
+    {
+      "v": 2,
+      "date": "2026-10-27T07:15:00.000Z",
+      "note": "Raf ön kenardan 20 mm geri alındı; kapaklar antrasit lake",
+      "sentTo": "Atölye A (örnek)",
+      "sentAt": "2026-10-28T06:00:00.000Z"
+    }
+  ]
+}

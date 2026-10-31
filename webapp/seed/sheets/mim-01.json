@@ -1,0 +1,25 @@
+{
+  "projectId": "ornek-moda",
+  "no": "MİM-01",
+  "title": "Zemin kat planı",
+  "kind": "mimari",
+  "scale": "1/50",
+  "size": "A3",
+  "status": "onay",
+  "sample": true,
+  "requestId": "t-01",
+  "revisions": [
+    {
+      "v": 1,
+      "date": "2026-10-21T07:00:00.000Z",
+      "note": "İlk yayın"
+    },
+    {
+      "v": 2,
+      "date": "2026-10-23T12:30:00.000Z",
+      "note": "Mutfak duvarı 20 cm kaydırıldı, ıslak hacim kotları eklendi",
+      "sentTo": "Müşteri",
+      "sentAt": "2026-10-23T13:00:00.000Z"
+    }
+  ]
+}

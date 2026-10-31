@@ -1,0 +1,292 @@
+{
+  "projectId": "ornek-moda",
+  "sheetId": "im-01",
+  "code": "M-01",
+  "name": "Mutfak alt dolabı, 2 kapaklı",
+  "room": "Mutfak",
+  "sample": true,
+  "overall": {
+    "w": 800,
+    "d": 578,
+    "h": 820
+  },
+  "parts": [
+    {
+      "id": "p1",
+      "no": 1,
+      "name": "Yan",
+      "role": "yan",
+      "qty": 2,
+      "mat": "govde",
+      "grain": "",
+      "edges": {
+        "u1": "2",
+        "u2": "",
+        "k1": "0.8",
+        "k2": ""
+      },
+      "note": "Raf pimi delikleri iç yüzde",
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 0,
+          "y": 18,
+          "z": 100,
+          "w": 18,
+          "d": 560,
+          "h": 720
+        },
+        {
+          "x": 782,
+          "y": 18,
+          "z": 100,
+          "w": 18,
+          "d": 560,
+          "h": 720
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "no": 2,
+      "name": "Alt tabla",
+      "role": "alt",
+      "qty": 1,
+      "mat": "govde",
+      "grain": "",
+      "edges": {
+        "u1": "2",
+        "u2": "",
+        "k1": "",
+        "k2": ""
+      },
+      "note": "",
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 18,
+          "y": 18,
+          "z": 100,
+          "w": 764,
+          "d": 560,
+          "h": 18
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "no": 3,
+      "name": "Üst kayıt (ön)",
+      "role": "kayit",
+      "qty": 1,
+      "mat": "govde",
+      "grain": "",
+      "edges": {
+        "u1": "0.8",
+        "u2": "",
+        "k1": "",
+        "k2": ""
+      },
+      "note": "",
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 18,
+          "y": 18,
+          "z": 802,
+          "w": 764,
+          "d": 100,
+          "h": 18
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "no": 4,
+      "name": "Üst kayıt (arka)",
+      "role": "kayit-arka",
+      "qty": 1,
+      "mat": "govde",
+      "grain": "",
+      "edges": {
+        "u1": "",
+        "u2": "",
+        "k1": "",
+        "k2": ""
+      },
+      "note": "Tezgah vidalama kaydı",
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 18,
+          "y": 460,
+          "z": 802,
+          "w": 764,
+          "d": 100,
+          "h": 18
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "no": 5,
+      "name": "Raf",
+      "role": "raf",
+      "qty": 1,
+      "mat": "govde",
+      "grain": "",
+      "edges": {},
+      "note": "Ayarlı, pim üzerine; ön kenardan 20 mm geride",
+      "rev": 2,
+      "boxes": [
+        {
+          "x": 19,
+          "y": 38,
+          "z": 460,
+          "w": 762,
+          "d": 520,
+          "h": 18
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "no": 6,
+      "name": "Arkalık",
+      "role": "arkalik",
+      "qty": 1,
+      "mat": "arkalik",
+      "grain": "",
+      "edges": {
+        "u1": "",
+        "u2": "",
+        "k1": "",
+        "k2": ""
+      },
+      "note": "Kanala geçme 8×8",
+      "kanal": true,
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 11,
+          "y": 560,
+          "z": 104,
+          "w": 778,
+          "d": 8,
+          "h": 712
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "no": 7,
+      "name": "Kapak",
+      "role": "kapak",
+      "qty": 2,
+      "mat": "kapak-ant",
+      "grain": "",
+      "edges": {
+        "u1": "",
+        "u2": "",
+        "k1": "",
+        "k2": ""
+      },
+      "note": "Lake, kenarlar boyalı",
+      "rev": 2,
+      "boxes": [
+        {
+          "x": 1.5,
+          "y": 0,
+          "z": 102,
+          "w": 397,
+          "d": 18,
+          "h": 716
+        },
+        {
+          "x": 401.5,
+          "y": 0,
+          "z": 102,
+          "w": 397,
+          "d": 18,
+          "h": 716
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "no": 8,
+      "name": "Baza",
+      "role": "baza",
+      "qty": 1,
+      "mat": "kapak-ant",
+      "grain": "",
+      "edges": {
+        "u1": "",
+        "u2": "",
+        "k1": "",
+        "k2": ""
+      },
+      "note": "Klipsle ayağa takılır",
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 0,
+          "y": 68,
+          "z": 0,
+          "w": 800,
+          "d": 18,
+          "h": 98
+        }
+      ]
+    }
+  ],
+  "hardware": [
+    {
+      "name": "Menteşe 110°, kapak üstü, frenli",
+      "qty": 4,
+      "note": "Kapak başına 2"
+    },
+    {
+      "name": "Ayarlı plastik ayak h=100 (+20)",
+      "qty": 4,
+      "note": ""
+    },
+    {
+      "name": "Baza klipsi",
+      "qty": 4,
+      "note": ""
+    },
+    {
+      "name": "Raf pimi Ø5, metal",
+      "qty": 4,
+      "note": ""
+    },
+    {
+      "name": "Çubuk kulp, 128 mm aks",
+      "qty": 2,
+      "note": "Antrasit"
+    },
+    {
+      "name": "Sunta vidası 4×35",
+      "qty": 24,
+      "note": "Gövde birleşimi"
+    }
+  ],
+  "details": {
+    "hinge": {
+      "type": "110° kapak üstü, frenli",
+      "perDoor": 2,
+      "fromEdge": 100,
+      "cup": "Ø35, derinlik 12 mm, kapak kenarından 22,5 mm (merkez)"
+    },
+    "handle": null,
+    "shelfPins": "Ø5 mm, ön ve arka kenardan 37 mm, 32 mm aralıkla 5 delik",
+    "mount": "Ayarlı ayak h=100 mm; baza klipsle ayağa takılır, gövde önünden 50 mm geride",
+    "gaps": ""
+  },
+  "notes": [
+    "Arkalık yan ve alt tablalardaki 8×8 mm kanala geçer; kanal arka kenardan 10 mm içeride.",
+    "Raf ayarlıdır; gösterilen konum montaj konumudur.",
+    "Tezgah bu paftaya dahil değildir."
+  ]
+}

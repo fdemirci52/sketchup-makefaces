@@ -1,0 +1,61 @@
+{
+  "name": "Moda Konutu — Daire 4",
+  "code": "PRJ-2611",
+  "client": "Örnek müşteri",
+  "location": "Kadıköy, İstanbul",
+  "sample": true,
+  "createdAt": "2026-10-18T06:00:00.000Z",
+  "standards": {
+    "olcuTipi": "bitmis",
+    "tolerans": "±0,5 mm",
+    "derz": "3 mm kapaklar arası, 1,5 mm dış kenar",
+    "bant": {
+      "gorunen": "2 mm PVC, gövde renginde",
+      "ic": "0,8 mm PVC"
+    },
+    "malzemeler": [
+      {
+        "key": "govde",
+        "ad": "MDF-Lam Beyaz",
+        "kalinlik": 18,
+        "kod": "BY-01 Mat",
+        "desen": false,
+        "renk": "#efefec"
+      },
+      {
+        "key": "kapak-ant",
+        "ad": "MDF Lake Mat Antrasit",
+        "kalinlik": 18,
+        "kod": "RAL 7016",
+        "desen": false,
+        "renk": "#50565c"
+      },
+      {
+        "key": "arkalik",
+        "ad": "MDF Beyaz",
+        "kalinlik": 8,
+        "kod": "BY-02",
+        "desen": false,
+        "renk": "#f4f4f2"
+      },
+      {
+        "key": "mese",
+        "ad": "Lam Doğal Meşe",
+        "kalinlik": 18,
+        "kod": "",
+        "desen": true,
+        "renk": "#c9a274"
+      }
+    ],
+    "tagYapisi": "00_REFERANS (DWG altlık)\n10_DUVAR\n20_DOSEME\n30_DOGRAMA\n40_CEPHE\n50_MOBILYA\n90_CIZIM (ölçü, yazı)",
+    "isimlendirme": "M-01_AltDolap, M-02_TvUnitesi — kod_ad, Türkçe karakter yok",
+    "sahneler": "Plan-Zemin\nCephe-Guney\nSalon-TV\nBanyo-Lavabo",
+    "claudeKurallari": "Grupları ve bileşenleri patlatma; yeni geometriyi doğru tag altına koy\nMevcut bileşen adlarını değiştirme\nÖlçü belirsizse varsayım yapma, önce sor\nİşe başlamadan dosyayı versiyon adıyla ayrı kaydet\nBitirince Make Faces ile yüzeysiz kenar ve gereksiz çizgi bırakma",
+    "teslimKurallari": "Dosyayı PRJ-2611_TalepKodu_vN.skp adıyla kaydet\nGörüntüyü 1920×1200, gölgeler kapalı al",
+    "antet": {
+      "ofis": "ÖRNEK MİMARLIK STÜDYOSU",
+      "cizen": "Örnek",
+      "boyut": "A3"
+    }
+  }
+}

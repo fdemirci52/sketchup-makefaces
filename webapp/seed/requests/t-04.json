@@ -1,0 +1,50 @@
+{
+  "projectId": "ornek-moda",
+  "code": "T-04",
+  "title": "Banyo lavabo duvarı",
+  "type": "ic-mimari",
+  "status": "taslak",
+  "sample": true,
+  "createdAt": "2026-10-30T13:00:00.000Z",
+  "updatedAt": "2026-10-30T13:20:00.000Z",
+  "scope": {
+    "scene": "Banyo-Lavabo",
+    "tags": "50_MOBILYA",
+    "comps": ""
+  },
+  "versions": [],
+  "draft": {
+    "image": "demo:banyo-v1",
+    "pins": [
+      {
+        "id": "k1",
+        "x": 0.36,
+        "y": 0.13,
+        "w": 0.28,
+        "h": 0.3,
+        "text": "Aynayı 80×60 yuvarlak köşeli, arkadan LED aydınlatmalı ayna ile değiştir"
+      },
+      {
+        "id": "k2",
+        "x": 0.335,
+        "y": 0.55,
+        "w": 0.33,
+        "h": 0.22,
+        "text": "Kapaklı dolabı 2 çekmeceli yap; üst çekmece sifon girintili"
+      }
+    ],
+    "note": "Dolap genişliği mevcut nişe göre kalsın (60 cm).",
+    "brief": {
+      "mekan": "Banyo, lavabo duvarı",
+      "tarz": "Sade, açık renk",
+      "malzeme": "Mat beyaz lake, meşe tezgah",
+      "koru": "Tesisat noktaları",
+      "butce": "Orta",
+      "cikti": "Görünüş"
+    },
+    "opts": {
+      "std": true,
+      "teslim": true
+    }
+  }
+}

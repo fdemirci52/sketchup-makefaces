@@ -1,0 +1,285 @@
+{
+  "projectId": "ornek-moda",
+  "sheetId": "im-02",
+  "code": "M-02",
+  "name": "TV ünitesi, asma",
+  "room": "Salon",
+  "sample": true,
+  "asma": true,
+  "overall": {
+    "w": 1800,
+    "d": 418,
+    "h": 400
+  },
+  "parts": [
+    {
+      "id": "p1",
+      "no": 1,
+      "name": "Üst tabla",
+      "role": "ust",
+      "qty": 1,
+      "mat": "mese",
+      "grain": "boy",
+      "edges": {
+        "u1": "2",
+        "u2": "",
+        "k1": "2",
+        "k2": "2"
+      },
+      "note": "",
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 0,
+          "y": 18,
+          "z": 382,
+          "w": 1800,
+          "d": 400,
+          "h": 18
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "no": 2,
+      "name": "Alt tabla",
+      "role": "alt",
+      "qty": 1,
+      "mat": "mese",
+      "grain": "boy",
+      "edges": {
+        "u1": "2",
+        "u2": "",
+        "k1": "2",
+        "k2": "2"
+      },
+      "note": "",
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 0,
+          "y": 18,
+          "z": 0,
+          "w": 1800,
+          "d": 400,
+          "h": 18
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "no": 3,
+      "name": "Yan",
+      "role": "yan",
+      "qty": 2,
+      "mat": "mese",
+      "grain": "boy",
+      "edges": {
+        "u1": "2",
+        "u2": "",
+        "k1": "",
+        "k2": ""
+      },
+      "note": "",
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 0,
+          "y": 18,
+          "z": 18,
+          "w": 18,
+          "d": 400,
+          "h": 364
+        },
+        {
+          "x": 1782,
+          "y": 18,
+          "z": 18,
+          "w": 18,
+          "d": 400,
+          "h": 364
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "no": 4,
+      "name": "Orta dikme",
+      "role": "dikme",
+      "qty": 2,
+      "mat": "mese",
+      "grain": "boy",
+      "edges": {},
+      "note": "",
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 591,
+          "y": 18,
+          "z": 18,
+          "w": 18,
+          "d": 382,
+          "h": 364
+        },
+        {
+          "x": 1191,
+          "y": 18,
+          "z": 18,
+          "w": 18,
+          "d": 382,
+          "h": 364
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "no": 5,
+      "name": "Raf",
+      "role": "raf",
+      "qty": 2,
+      "mat": "mese",
+      "grain": "",
+      "edges": {
+        "u1": "2",
+        "u2": "",
+        "k1": "",
+        "k2": ""
+      },
+      "note": "Pim üzerine",
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 19,
+          "y": 38,
+          "z": 191,
+          "w": 571,
+          "d": 360,
+          "h": 18
+        },
+        {
+          "x": 1210,
+          "y": 38,
+          "z": 191,
+          "w": 571,
+          "d": 360,
+          "h": 18
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "no": 6,
+      "name": "Arkalık",
+      "role": "arkalik",
+      "qty": 1,
+      "mat": "arkalik",
+      "grain": "",
+      "edges": {
+        "u1": "",
+        "u2": "",
+        "k1": "",
+        "k2": ""
+      },
+      "note": "Orta nişte Ø60 kablo deliği",
+      "kanal": true,
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 10,
+          "y": 400,
+          "z": 10,
+          "w": 1780,
+          "d": 8,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "no": 7,
+      "name": "Kapak",
+      "role": "kapak",
+      "qty": 2,
+      "mat": "mese",
+      "grain": "boy",
+      "edges": {
+        "u1": "2",
+        "u2": "2",
+        "k1": "2",
+        "k2": "2"
+      },
+      "note": "Damar yatay, aynı plakadan sıralı kesim",
+      "rev": 1,
+      "boxes": [
+        {
+          "x": 1.5,
+          "y": 0,
+          "z": 1.5,
+          "w": 597,
+          "d": 18,
+          "h": 397
+        },
+        {
+          "x": 1201.5,
+          "y": 0,
+          "z": 1.5,
+          "w": 597,
+          "d": 18,
+          "h": 397
+        }
+      ]
+    }
+  ],
+  "hardware": [
+    {
+      "name": "Bas-aç mekanizma, mıknatıslı",
+      "qty": 2,
+      "note": "Kapak başına 1"
+    },
+    {
+      "name": "Menteşe 110°, kapak üstü, frensiz",
+      "qty": 4,
+      "note": "Bas-aç ile"
+    },
+    {
+      "name": "Raf pimi Ø5, metal",
+      "qty": 8,
+      "note": ""
+    },
+    {
+      "name": "Asma dolap askı aparatı, ayarlı",
+      "qty": 2,
+      "note": "Sağ ve sol yan"
+    },
+    {
+      "name": "Duvar askı rayı L=1700",
+      "qty": 1,
+      "note": "Dübel aralığı 300 mm"
+    },
+    {
+      "name": "Kablo geçiş kapağı Ø60",
+      "qty": 1,
+      "note": "Orta niş arkalığı"
+    }
+  ],
+  "details": {
+    "hinge": {
+      "type": "110° kapak üstü, frensiz (bas-aç ile)",
+      "perDoor": 2,
+      "fromEdge": 80,
+      "cup": "Ø35, kapak kenarından 22,5 mm (merkez)"
+    },
+    "handle": {
+      "type": "Kulpsuz — bas-aç mekanizma",
+      "pos": "Kapak üst iç köşesi, kenardan 50 mm"
+    },
+    "shelfPins": "Ø5 mm, ön ve arka kenardan 37 mm, 32 mm aralıkla 3 delik",
+    "mount": "Duvar askı rayı + 2 ayarlı askı aparatı; ünite alt kotu yerden 450 mm",
+    "gaps": ""
+  },
+  "notes": [
+    "Kapaklar ve üst tabla aynı plakadan sıralı kesilecek; damar yatay ve sürekli.",
+    "Orta nişte arkalığa Ø60 kablo geçişi: alt tabladan 80 mm yukarıda, ortada.",
+    "Dolap içi yük en fazla 30 kg."
+  ]
+}

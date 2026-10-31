@@ -1,0 +1,75 @@
+{
+  "projectId": "ornek-moda",
+  "code": "T-02",
+  "title": "Güney cephe — dikey lamel",
+  "type": "cephe",
+  "status": "kontrol",
+  "sample": true,
+  "createdAt": "2026-10-24T07:00:00.000Z",
+  "updatedAt": "2026-10-29T08:40:00.000Z",
+  "scope": {
+    "scene": "Cephe-Guney",
+    "tags": "40_CEPHE, 30_DOGRAMA",
+    "comps": ""
+  },
+  "draft": null,
+  "versions": [
+    {
+      "n": 1,
+      "sentAt": "2026-10-24T07:20:00.000Z",
+      "doneAt": "2026-10-24T09:05:00.000Z",
+      "minutes": 105,
+      "image": null,
+      "result": "demo:cephe-v1",
+      "pins": [],
+      "note": "",
+      "brief": {
+        "cephe": "Güney cephe",
+        "sahne": "Cephe-Guney",
+        "malzeme": "Beyaz sıva, beyaz doğrama",
+        "koru": "Pencere boşlukları ve kat yükseklikleri",
+        "alternatif": "1",
+        "referans": "Mevcut durumun temiz cephe modeli"
+      },
+      "prompt": "",
+      "summary": "Mevcut cephe modellendi: sıva, döşeme bantları, doğramalar."
+    },
+    {
+      "n": 2,
+      "sentAt": "2026-10-29T06:10:00.000Z",
+      "doneAt": "2026-10-29T08:40:00.000Z",
+      "minutes": 150,
+      "image": "demo:cephe-v1",
+      "result": "demo:cephe-v2",
+      "pins": [
+        {
+          "id": "k1",
+          "x": 0.21,
+          "y": 0.07,
+          "w": 0.58,
+          "h": 0.61,
+          "text": "1–4. katlara dikey ahşap kompozit lamel: 12 cm genişlik, 40 cm aks, cephe önünden 15 cm"
+        },
+        {
+          "id": "k2",
+          "x": 0.21,
+          "y": 0.71,
+          "w": 0.58,
+          "h": 0.17,
+          "text": "Zemin kat vitrin doğramaları antrasit (RAL 7016)"
+        },
+        {
+          "id": "k3",
+          "x": 0.815,
+          "y": 0.06,
+          "w": 0,
+          "h": 0,
+          "text": "Lamellerin üstünde ve altında antrasit taşıyıcı profil"
+        }
+      ],
+      "note": "Lameller pencere önlerinde de devam etsin; aralık eşit.",
+      "prompt": "",
+      "summary": "Lameller 40 cm aksla yerleştirildi, zemin kat doğramaları antrasit yapıldı, üst/alt taşıyıcı profil eklendi."
+    }
+  ]
+}
